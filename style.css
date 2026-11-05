@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -7,42 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fffaf5;
-    background-image: url(https://i.pinimg.com/736x/b8/fc/fa/b8fcfa4189d57095715eda183ea4c970.jpg);
+    background-image: url(https://i.pinimg.com/originals/49/46/da/4946da8f755d3f91a23914dd11b35f30.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-header {
-    background: linear-gradient(to right, #8b0000, #c0392b);
-    color: white;
-    text-align: center;
-    padding: 35px;
-}
-
-header h1 {
-    margin-bottom: 10px;
-}
-
-nav {
-    background-color: #14532d;
-    text-align: center;
-    padding: 18px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 20px;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #ffd700;
-}
-
 
 .menu-principal nav{
     margin-top: 24px;
@@ -76,51 +45,55 @@ nav a:hover {
     transform: translate(-4px);
 }
 
-.titulo {
+header {
+    background: linear-gradient(to right, #14532d, #26834a);
+    color: white;
     text-align: center;
-    color: #8b0000;
-    margin: 35px;
+    padding: 35px;
 }
 
-.texto {
-    max-width: 800px;
-    text-align: center;
-    margin: auto;
-    line-height: 1.8;
-    padding: 10px;
+header h1 {
+    margin-bottom: 10px;
 }
 
-.galeria {
+nav {
+    background-color: #8b0000;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.banner {
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+    url("https://images.unsplash.com/photo-1543255006-d6395b6f1171?w=1200");
+
+    background-size: cover;
+    background-position: center;
+
     display: flex;
     justify-content: center;
-    gap: 25px;
-    margin: 40px;
-}
-
-.comida {
-    background-color: white;
-    width: 280px;
+    color: white;
+    font-size: 25px;
     text-align: center;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 3px 10px #ccc;
-    transition: 0.4s;
 }
 
-
-.comida img {
-    width: 100%;
-    height: 190px;
-
-}
-
-.comida h3 {
+.titulo {
+    text-align: center;
     color: #14532d;
-    margin: 15px;
-}
+    margin: 35px;
 
-.comida p {
-    padding: 10px;
 }
 
 .cards{
@@ -131,42 +104,56 @@ nav a:hover {
     width: 100%;
     transition: 0.5s;
     text-align: center;
+
 }
 
-.receita {
-    background: linear-gradient(to right, #f7e6c4, #fffaf0);
-    max-width: 750px;
-    margin: 50px auto;
-    padding: 30px;
+
+
+
+
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+    margin: 40px;
+}
+
+.deco{
+    background-color: white;
+    width: 280px;
+    text-align: center;
     border-radius: 12px;
-    position: relative;
-    border-left: 6px solid #8b0000;
+    overflow: hidden;
+    box-shadow: 0 3px 10px #ccc;
+    transition: 0.4s;
 }
 
-.receita h2 {
-    color: #8b0000;
-    margin-bottom: 20px;
+
+
+.deco img {
+    width: 100%;
+    height: 190px;
 }
 
-.receita h3 {
+.deco h3 {
     color: #14532d;
-    margin: 15px 0;
+    margin: 15px;
 }
 
-.receita ul {
-    margin-left: 25px;
-    line-height: 2;
+.deco p {
+    padding: 10px;
 }
 
-.receita p {
-    line-height: 1.8;
-}
+
 
 footer {
     background-color: #14532d;
     color: white;
     text-align: center;
     padding: 25px;
+    margin-top: 40px;
 }
 
 footer a {
@@ -175,3 +162,4 @@ footer a {
     display: inline-block;
     margin-bottom: 12px;
 }
+
